@@ -1,0 +1,172 @@
+<!-- <nav>
+    <div class="left dflex">
+      <a href="#"><img src="pic/amazon.png" alt="logo" class="logo" /><span>.in</span></a>
+
+      <div class="item">
+        <p><i class="fa fa-map-marker me"></i>hello,</p>
+        <h5>enter your address</h5>
+      </div>
+    </div>
+    <div class="searchBox dflex">
+      <div class="box">
+        <div class="dflex">
+          <button type="submit" class="all">
+            All <i class="fa fa-sort-desc"></i>
+          </button>
+          <input type="text" />
+          <button type="submit" class="search">
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="right dflex">
+      <div class="item">
+        <i class="fa fa-flag"></i><i class="fa fa-sort-desc"></i>
+      </div>
+      <div class="item">
+        <p>Hello,</p>
+        <h5>Account & Lists<i class="fa fa-sort-desc"></i></h5>
+      </div>
+      <div class="item">
+        <p>Returns</p>
+        <h5>& Order</h5>
+      </div>
+      <div class="item"><i class="fa fa-shopping-cart fa-2x"></i>Cart</div>
+    </div>
+  </nav> -->
+  
+<!-- subanvigation -->
+
+  <!-- <nav class="subnavigation">
+    <ul class="submenu">
+      <a href="#"><i class="fa fa-bars"></i>
+        <li>All</li>
+      </a>
+      <a href="#">
+        <li>Gift Cards</li>
+      </a>
+      <a href="#">
+        <li>Amazon Pay</li>
+      </a>
+      <a href="#">
+        <li>Amazon Business <i class="fa fa-sort-desc"></i></li>
+      </a>
+      <a href="#">
+        <li>Pet Supplies</li>
+      </a>
+      <a href="#">
+        <li>Kindle ebooks</li>
+      </a>
+      <a href="#">
+        <li>User's Amazon.in</li>
+      </a>
+      <a href="#">
+        <li>Gift ideas</li>
+      </a>
+      <a href="#">
+        <li>Video Games</li>
+      </a>
+      <a href="#">
+        <li>AmazonBasics</li>
+      </a>
+      <a href="#">
+        <li>Copuons</li>
+      </a>
+    </ul>
+    <ul>
+      <a href="#"><i class="fa fa-amazon bg"></i>
+        <li class="li">Shopping made easy|Download the app</li>
+      </a>
+    </ul>
+  </nav> -->
+
+
+
+     <!-- <section class="sliderdiv1" > 
+    <div id="imgslider" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#imgslider" data-slide-to="0" class="active"></li>
+            <li data-target="#imgslider" data-slide-to="1"></li>
+            <li data-target="#imgslider" data-slide-to="2" ></li>
+            <li data-target="#imgslider" data-slide-to="3"></li>
+        </ol>
+      <div class="carousel-inner">
+        <div class="item active slidediv">
+            <img src="./images/sliderimage1.jpeg" alt="Books" class="img-responsive">
+        </div>
+        <div class="item slidediv">
+            <img src="./images/sliderimg2.jpg" alt="amazon logo" class="img-responsive" width="100%" height="100px">
+        </div>
+        <div class="item slidediv">
+            <img src="./images/sliderimg3.jpg" alt="smart watches" class="img-responsive">
+        </div>
+        <div class=" item slidediv">
+            <img src="./images/sliderimg4.jpg" alt="TV" class="img-responsive">
+        </div>
+      
+      </div>
+      <a href="#imgslider" class="left carousel-control" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"> </span>
+        </a>
+        <a href="#imgslider" class="right carousel-control" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"> </span>
+            </a>
+    </div> -->
+
+
+<!-- </section> -->
+
+
+         <!-- <div class="outline3">
+            
+             <section class="productslider"> 
+                
+                 <button class="pre-btn0"><img src="images/arrow.png" alt=""></button>
+                 <button class="nxt-btn0"><img src="images/arrow.png" alt=""></button>
+     
+                 <div class="container1">
+     
+                     <div class="card">
+                         <div class="image">
+                          
+                             <img src="./images/sliderimage1.jpeg" class="thumb" alt="">
+                             
+                         </div>
+                         
+                     </div>
+
+                     <div class="card">
+                        <div class="image">
+                         
+                            <img src="./images/sliderimg2.jpg" class="thumb" alt="">
+                            
+                        </div>
+                        
+                    </div>
+
+                    <div class="card">
+                        <div class="image">
+                         
+                            <img src="./images/sliderimg3.jpg" class="thumb" alt="">
+                            
+                        </div>
+                        
+                    </div>
+      
+                    <div class="card">
+                        <div class="image">
+                         
+                            <img src="./images/sliderimg4.jpg" class="thumb" alt="">
+                            
+                        </div>
+                        
+                    </div>
+                 
+             
+                 </div>
+             </section>
+     </div> -->
+
+
+    
