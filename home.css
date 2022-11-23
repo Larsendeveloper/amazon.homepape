@@ -112,11 +112,27 @@ nav .all i {
   border-radius: 10px;
 }
 
+@media screen and (max-width: 1295px) {
+
+    
+
+  .all {
+      
+      height: 46px;
+  }
+
+}
+
 /* sub-navigation bar */
 
 .subnavigation {
   background-color: #131921;
+ 
   padding: 6px 15px;
+
+}
+.subnavigation a{
+ text-decoration: none;
 
 }
 .submenu {
@@ -125,19 +141,21 @@ nav .all i {
   
 }
 ul li {
+  color: #ddd;
   list-style: none;
   font-weight: 500;
   padding: 1px 5px;
   font-size: 14px;
+  text-decoration: none;
 }
 nav .submenu i {
   font-size: 16px;
 }
 .end {
   
- display: flex;
- justify-content: flex-end;
-  font-size: 20px;
+position: relative;
+left: 652px;
+font-size: 20px;
 }
 .bg {
   position: relative;
@@ -156,11 +174,6 @@ nav .submenu i {
    width: 100%;
    height: 100%;
    }
-
-
-
-
-
 
   .slider{
     height:400px ;
@@ -194,9 +207,17 @@ nav .submenu i {
   .heading{
   margin-top: 19px;
   margin-left: 5px;
-
+  font-size: 20px;
+  font-weight: 500px;
 
   }
+  
+  .heading h3{
+    font-size: 20px;
+    font-weight: 600px;
+  
+  
+    }
   /* section 1 */
 
   .tilecontainer1
@@ -401,6 +422,11 @@ nav .submenu i {
       margin-top: 10px;
     
   }
+  .outline h1{
+    font-size: 23px;
+    font-weight: 600;
+
+  }
 
   
     /* PRODUCTS */
@@ -515,6 +541,10 @@ nav .submenu i {
 
 /* section 2  */
 
+.outline2 h1{
+font-size: 23px;
+font-weight: 600;
+}
 
    .product2 {
       position: relative;
@@ -563,7 +593,8 @@ nav .submenu i {
     padding:5px;
     border-radius: 5%;
     bottom: -9px;
-    left: 28px;
+    left: 13px;
+    font-size: 15px;
   }
 
   .discount-tag2{
@@ -571,16 +602,20 @@ nav .submenu i {
     color:#cc0c39 ;
     padding:5px;
     border-radius: 5%;
-    bottom: -15px;
-    left: 24px;
-    
+    bottom: -8px;
+    left: 21px;
+    font-size: 15px;
   }
 
   .product-info{
     position:relative;
     font-size: 13px;
     bottom: -12px;
-    left: 3px;
+    left: 13px;
+  }
+  .product-short-description{
+    font-size: 13px;
+    font-weight: 500px;
   }
 
   .pre-btn2,
@@ -710,6 +745,7 @@ nav .submenu i {
 
    }
    .row5 a {
+    color: #ddd;
    text-decoration: none;
   
      }

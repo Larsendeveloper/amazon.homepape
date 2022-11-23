@@ -34,19 +34,3 @@ productContainers2.forEach((item, i) => {
     })
 })
 // porducts image slider with details
-const Containers1 = [...document.querySelectorAll('.container1')];
-const nxtBtn0 = [...document.querySelectorAll('.nxt-btn0')];
-const preBtn0 = [...document.querySelectorAll('.pre-btn0')];
-
-Containers1.forEach((item, i) => {
-    let containerDimensions = item.getBoundingClientRect();
-    let containerWidth = containerDimensions.width;
-
-    nxtBtn0[i].addEventListener('click', () => {
-        item.scrollLeft += containerWidth;
-    })
-
-    preBtn0[i].addEventListener('click', () => {
-        item.scrollLeft -= containerWidth;
-    })
-})
