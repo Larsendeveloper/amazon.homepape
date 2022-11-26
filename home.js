@@ -33,4 +33,15 @@ productContainers2.forEach((item, i) => {
         item.scrollLeft -= containerWidth;
     })
 })
-// porducts image slider with details
+// coupon 
+
+function loadCoupon(){
+    document.getElementById("Coupon").style.visibility="visible";
+    document.getElementById("main").style.opacity="0.7";
+
+}
+function closeCoupon(){
+    document.getElementById("Coupon").style.visibility="hidden";
+    document.getElementById("main").style.opacity="1";
+    
+}
