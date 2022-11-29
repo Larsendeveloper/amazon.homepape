@@ -33,7 +33,7 @@ productContainers2.forEach((item, i) => {
         item.scrollLeft -= containerWidth;
     })
 })
-// coupon 
+coupon 
 
 function loadCoupon(){
     document.getElementById("Coupon").style.visibility="visible";
@@ -44,4 +44,11 @@ function closeCoupon(){
     document.getElementById("Coupon").style.visibility="hidden";
     document.getElementById("main").style.opacity="1";
     
+}
+
+// light /dark mode
+
+const changemode = () => {
+    let mybody =document.body;
+ mybody.classList.toggle('myDark')
 }
