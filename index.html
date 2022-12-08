@@ -20,7 +20,7 @@
                 <div id="main">
                 <div id="Coupon">
                 <button onclick="closeCoupon()">&times;</button> 
-                <img src="./images/coupon.webp" alt="">
+    
                 <h1>Discount Coupon  </h1>
                 <h2> Coupon Code: OMCKSA</h2>
                 </div>
@@ -70,7 +70,7 @@
                 <div class="item"><i class="fa fa-shopping-cart fa-2x"></i>Cart</div>
                 
               <button onclick ="changemode()" class="Dark-Mode">Dark <br> Mode</button>
-
+              <button onclick="geolocation()" class="weatherinfo" >Get <br> Location </button>
             </div>
 
             </div>
@@ -83,7 +83,7 @@
         <nav class="subnavigation ">
 
           <div class="row"> 
-            <div class="col-md-6 checkdiv">
+            <div class="col-md-6 checkdiv1">
                 <ul class="submenu ">
          
                     <a href="#"><li><i class="fa fa-bars"></i>  All </li>
@@ -198,7 +198,7 @@
                 
                             <div class="tilecontainer1">
                                 <img src="./images/section1/clothing.jpg" alt="clothing">
-                                <span>clothing</span>
+                                <span> Mens clothing</span>
                             </div>
                             <div class="tilecontainer2">
                                 <img src="./images/section1/footwear.jpg " alt="clothing">
@@ -267,32 +267,95 @@
                     </div>
                 <!-- ads -->
                     <div class="map1">
-                        <div class="heading">
-                            <h3>Redefine your living room</h3> 
-                        </div>
-                    
+                       
+                        <div class="tilecontainerweather  ">
+                          
+                            <h3> Todays Weather</h3>
                             
-                            <div class="tilecontainer1">
-                                <img src="./images/section1/sofa cum beds_.jpg" alt="clothing">
-                                <span>Sofa Cum Beds</span>
+                            <p id="out"></p>
+                            <p id="Weather" class="weatherout"></p>
+                            <h2></h2>
+                        </div>
+                            
+                            <div class="tilecontainer-ads ">
+                                <img src="./images/section1/Fuji_D2_45M_.jpg" alt="clothing">
+                              
                             </div>
-                            <div class="tilecontainer2">
-                                <img src="./images/section1/office chairs_.jpg " alt="clothing">
-                                <span>Office Chairs</span>
-                            </div>
-                            <div class="tilecontainer1">
-                                
-                                <img src="./images/section1/Bean bags_.jpg" alt="clothing">
-                                <span>Bean bags</span>
-                            </div>
-                            <div class="tilecontainer2">
-                                <img src="./images/section1/Explore all.jpg" alt="clothing">
-                                <span>Explore all</span>
-                            </div>
+                            
+                           
                     </div>
             
             </div>  
+            <!-- full card  -->
 
+            <div id="maincard1">
+
+                <div class="map1 side"> 
+                    <div class="heading">
+                    <h3>Shop Laptops & Tablets</h3> 
+                    </div>
+            
+                        <div class="tilecontainercard checkdiv1">
+                            <img src="./images/section1/Fuji_Dash_Laptops_.jpg" alt="clothing">
+                            <a href="#" class="See-more">See more</a> 
+                        </div> 
+
+                       
+        
+                       
+                </div>
+                <!-- Top picks for your home -->
+                <div class="map1">
+                    <div class="heading">
+                        <h3>Shop activity trackers and smartwatches</h3> 
+                    </div>
+                
+                        
+                    <div class="tilecontainercard-short  checkdiv1">
+                        <img src="./images/section1/Fuji_Dash_SmartWatch__.jpg"class=img-short alt="clothing">
+                        <a href="#" class="See-more">Shop now</a> 
+                    </div> 
+                </div>
+
+                <!-- Up to 60% off | Styles for Men -->
+                <div class="map1">
+                    <div class="heading">
+                        <h3>New arrivals in Toys</h3> 
+                    </div>
+                
+                        
+                    <div class="tilecontainercard checkdiv1">
+                        <img src="./images/section1/Fuji_Dash_Toys__.jpg" alt="clothing">
+                        <a href="#" class="See-more">Shop now</a> 
+                    </div> 
+                </div>
+            <!-- ads -->
+                <div class="map1">
+                    <div class="heading">
+                        <h3>Redefine your living room</h3> 
+                    </div>
+                
+                        
+                        <div class="tilecontainer1">
+                            <img src="./images/section1/sofa cum beds_.jpg" alt="clothing">
+                            <span>Sofa Cum Beds</span>
+                        </div>
+                        <div class="tilecontainer2">
+                            <img src="./images/section1/office chairs_.jpg " alt="clothing">
+                            <span>Office Chairs</span>
+                        </div>
+                        <div class="tilecontainer1">
+                            
+                            <img src="./images/section1/Bean bags_.jpg" alt="clothing">
+                            <span>Bean bags</span>
+                        </div>
+                        <div class="tilecontainer2">
+                            <img src="./images/section1/Explore all.jpg" alt="clothing">
+                            <span>Explore all</span>
+                        </div>
+                </div>
+        
+        </div>  
             <!-- products catagories -->
             <div id="maincard1">
 
